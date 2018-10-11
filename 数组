@@ -1,0 +1,17 @@
+创建数组的方法：
+
+//创建数组的第一种方法
+指定大小，不初始化元素，默认0
+int[] arr=new int[6];
+int intValue=arr[5];
+System.out.println(intValue);
+
+//创建数组的第二种方法
+直接指定元素，大小
+int[] x={1,2,3,4};
+System.out.println(x[1]);
+
+
+//创建数组的第三种方法。
+同上一种，写法明确
+int[] y= new int[]{1,2,3,4,5};
